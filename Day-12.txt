@@ -1,0 +1,146 @@
+Day-12
+
+25/10/2025
+
+Two-dimensional Array or multi-dimensional Arrays:
+
+Two-dimensional Array Declaration:
+
+int[][] a; // it is recommended
+int [][]a;
+int a[][];
+int[] a[];
+int []a[];
+
+
+Three-dimensional array declaration:
+
+int[][][] a;
+int [][][]a;
+int a[][][];
+int[][] a[];
+int[] [][]a;
+int[][] []a;
+
+
+Which of the following declarations are valid.
+
+1. int[] a1,b1; //valid. a1[],b1[]
+2. int[] a2,b2; //a2-2,b2-1
+3. int[] []a3,b3; //a3-2,b3-2
+4. int[] a4,[]b4; // invalid.
+
+Note:
+if we want to specify the dimension before the variable, but the rule is applicable only for the first variable, second  variable onwards we cant apply the declaration.
+
+
+Multi-dimensional Array creation:
+
+in java Multi-dimensional Array are implemented as arrays of arrays approach but not in matrix form. the main advantage of this approach is improve memory utilization.
+
+int[][] a=new int[2][];
+a[0]=new int[3];
+a[1]=new int[2];
+
+
+Multi-dimensional Array initialization:
+
+declaration, construction and initialization single line through multi dimensional arrays:
+
+int[][] a;
+a=new int[2][3];
+a[0][0]=10;                                   int[][] a={10,20,30},{70,80,90};
+a[0][1]=20;
+a[0][2]=30;               ===>             
+a[1][0]=70;
+a[1][1]=80;
+a[1][2]=90;
+
+
+
+int[][][]
+
+
+//  HW:
+
+1. read and print a 2d array.
+2. sum of all elements in 2d array.
+3. row-wise sum in 2d array.
+4. column wise sum in 2d array.
+5. transpose `of a matrix :- switch rows with columns.
+6. multiply two matrices.
+7. add two matrices.
+8.row-wise and column-wise product.
+
+
+Day-12 Multi-Dimessional Array Examples Programs
+====================================================
+1. Read and Print a 2D Array
+2. Sum of All Elements in 2D Array.
+3. Row-wise Sum in 2D Array.
+4. Column-wise Sumin 2D Array.
+5. Transpose of a Matrix:- Switch rows with columns
+6. Multiply Two Matrices 
+7. Java Program to Add Two Matrices
+8.Java Program for Row-wise and Column-wise Product
+
+
+https://tinyurl.com/JFS44-Java-Notes
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
